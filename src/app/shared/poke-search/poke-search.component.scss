@@ -1,0 +1,30 @@
+:host {
+    .container {
+        display: flex;
+        gap: 5px;
+        place-content: center;
+        margin: 0 auto;
+        width: 500px ;
+        place-items: center;
+        position: relative;
+
+        input {
+            background: #dfdfdf;
+            width: 500px;
+            padding: 10px;
+            outline: none;
+            border-radius: 8px;
+            border: 1px  solid transparent;
+
+            &:focus {
+                border: 1px solid red;
+            }
+
+        }
+
+        .icon-busca {
+            position: absolute;
+            right: 0px;    
+        }
+    }
+}

@@ -1,0 +1,31 @@
+:host {
+    .lista {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+        place-content: center;
+        place-items: center;
+        gap: 15px;
+        margin-top: 30px;
+
+        .pokemon {
+            width: 100%;
+            height: 200px;
+            background: #f7f7f7;
+            border-radius: 10px;
+            padding: 20px;
+
+            ul {
+                list-style: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+    }
+
+}
